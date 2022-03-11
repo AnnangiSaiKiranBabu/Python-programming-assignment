@@ -1,0 +1,21 @@
+Take an integer input from user and print the same number.
+a=int(input())
+
+print(a,end="")
+
+
+
+Take two integers as an input and display the difference of second number from first number.
+x=int(input())
+y=int(input())
+print(x-y,end="")
+
+
+
+given a number as the an input. You have to display all the numbers from 0 till x
+n=int(input())
+for i in range(n+1):
+  if i!=n:
+    print(i)
+  else:
+    print(i,end="")
